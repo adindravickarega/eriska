@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  
+  background-size: 100%;
+  background-color: #f4f6f9;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:880px){
+	footer { position: static; }
+}
+
+
+.footer-distributed{
+	background-color: rgba(0,0,0,0.0);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+	margin-bottom: 10px;
+}
+
+.footer-distributed .footer-left{
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 100%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 50%;
+}
+
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+
+
+
+.footer-distributed .footer-left p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: top;
+	margin:0;
+	font-size:12px;
+	line-height:1.8;
+}
+
+.footer-distributed .footer-left p span{
+	display:block;
+	font-weight: normal;
+	font-size:12px;
+	line-height:1.8;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #ffffff;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+
+.footer-distributed .footer-icons{
+	margin-left: 5px;
+}
+
+.footer-distributed .footer-icons a i{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 10px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 15px;
+
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 1px;
+	
+	vertical-align: bottom;
+}
+
+.footer-distributed .footer-left i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 10px;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 15px;
+	vertical-align: middle;
+}
